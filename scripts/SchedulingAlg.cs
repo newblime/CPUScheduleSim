@@ -1,28 +1,32 @@
+public class _Sched
+{
+    public delegate void _ts(SchedulingAlg.data_schedule s, int w);
 
-public class _Sched{
-  public delegate void _ts(SchedulingAlg.data_schedule s, int w);
-
-  public static _ts f;
-  public static SchedulingAlg[] objs = {
+    public static _ts f;
+    public static SchedulingAlg[] objs = {
     new FIFO_ALG(),
     new shortest_ALG(),
-    new shortest_ALG{AlgName = "Shortest Duration (Preemptive)", Preemptive = true}
+    new shortest_ALG{AlgName = "Shortest Duration (Preemptive)", Preemptive = true},
+    new round_robin_ALG{AlgName = "Round Robin"}
   };
 }
 
-public class SchedulingAlg{
-  public string AlgName;
-  public bool Preemptive = false;
+public class SchedulingAlg
+{
+    public string AlgName;
+    public bool Preemptive = false;
 
-  public struct data_schedule{
-    public int id;
-    public int waktu;
-    public int prioritas;
-  }
+    public struct data_schedule
+    {
+        public int id;
+        public int waktu;
+        public int prioritas;
+    }
 
-  protected void tampilkan_schedule(data_schedule s, int waktu){
-    _Sched.f(s, waktu);
-  }
-  
-  public virtual void proses(data_schedule[] sched, int sched_len, int qt){}
+    protected void tampilkan_schedule(data_schedule s, int waktu)
+    {
+        _Sched.f(s, waktu);
+    }
+
+    public virtual void proses(data_schedule[] sched, int sched_len, int qt) { }
 }
