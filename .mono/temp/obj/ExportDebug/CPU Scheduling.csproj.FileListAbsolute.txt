@@ -1,0 +1,9 @@
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\bin\ExportDebug\CPU Scheduling.dll
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\bin\ExportDebug\CPU Scheduling.pdb
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.csproj.AssemblyReference.cache
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.GeneratedMSBuildEditorConfig.editorconfig
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.AssemblyInfoInputs.cache
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.AssemblyInfo.cs
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.csproj.CoreCompileInputs.cache
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.dll
+C:\GodotGamePorjectMono\CPUSchedule\.mono\temp\obj\ExportDebug\CPU Scheduling.pdb
